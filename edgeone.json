@@ -21,8 +21,8 @@
   ],
   "redirects": [
     {
-      "destination": "https://www.zhilu.site/api/icon",
-      "source": "/favicon.ico",
+      "destination": "https://file.catp.cc",
+      "source": "/avatar.png",
       "status": 308
     }
   ]
