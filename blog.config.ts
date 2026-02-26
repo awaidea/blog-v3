@@ -1,7 +1,7 @@
 import type { FeedEntry } from './app/types/feed'
 
 const basicConfig = {
-	title: 'EdgeCatのBlog,
+	title: 'EdgeCatのBlog',
 	subtitle: '溪云初起日沉阁，山雨欲来风满楼',
 	// 长 description 利好于 SEO
 	description: 'EdgeCat - 在边缘网络上苦苦挣扎|HURRY UP!EdgeCat',
