@@ -63,7 +63,7 @@ onMounted(() => {
 <template>
 <section ref="comment" class="z-comment">
 	<h3 class="text-creative">
-		评论区
+		喵喵喵～
 	</h3>
 
 	<!-- interactive 默认会把气泡移动到 triggerTarget 的父元素上 -->
