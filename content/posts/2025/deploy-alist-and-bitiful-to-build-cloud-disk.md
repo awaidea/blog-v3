@@ -1,18 +1,9 @@
 ---
-abbrlink: ''
-aplayer: null
-aside: null
-categories: []
-comments: null
-cover: https://alistgo.com/logo.svg
-date: '2025-07-13'
+date: 2025-07-13
 description: Huang1111盘的5TB的免费空间没了，呜呜呜～  准备工作  一个注册时间超过180天的GitHub账号 一个手机号 一个域名  注册Bitiful  打开Bitiful官网 Bitiful  注册/登录  先搞个桶   注册ClawCloudRun  官网ClawCloudRun    点那个Get Started for free  用你超过180天的GitHub账号登录  登录之后区...
-random: null
 tags: [ClawCloudRun,A/Oplist]
 title: AList+Bitiful自建网盘
-top_img: null
-type: null
-updated: '2025-07-14T12:19:26.165+08:00'
+updated: 2025-07-14T12:19:26.165+08:00
 ---
 > Huang1111盘的5TB的免费空间没了，呜呜呜～
 
