@@ -61,7 +61,7 @@ export default defineAppConfig({
 			{ icon: 'ri:qq-line', text: '交流群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
 			{ icon: 'ph:github-logo-bold', text: 'GitHub: awaidea', url: 'https://github.com/awaidea' },
 			{ icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
-			{ icon: 'icon-park-twotone:planet', text: '异次元之旅', url: 'https://travel.moe' },
+			{ icon: 'ph:planet', text: '异次元之旅', url: 'https://travel.moe/go.html?travel=on' },
 		] satisfies NavItem[],
 		/** 页脚站点地图 */
 		nav: [
@@ -69,13 +69,13 @@ export default defineAppConfig({
 				title: '探索',
 				items: [
 					{ icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
-					{ icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/' },
+					{ icon: 'ph:planet', text: '异次元之旅', url: 'https://travel.moe/go.html?travel=on' },
 				],
 			},
 			{
 				title: '社交',
 				items: [
-					{ icon: 'ph:github-logo-bold', text: 'L33Z22L11', url: 'https://github.com/L33Z22L11' },
+					{ icon: 'ph:github-logo-bold', text: 'awaidea', url: 'https://github.com/awaidea' },
 					{ icon: 'ri:qq-line', text: '群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
 					{ icon: 'ph:envelope-simple-bold', text: blogConfig.author.email, url: `mailto:${blogConfig.author.email}` },
 				],
@@ -85,7 +85,7 @@ export default defineAppConfig({
 				items: [
 					{ icon: 'simple-icons:nuxt', text: `主题: ${pascal(name)} ${version}`, url: 'https://github.com/L33Z22L11/blog-v3' },
 					{ icon: 'ph:swatches-bold', text: '主题和组件文档', url: '/theme' },
-					{ icon: 'ph:certificate-bold', text: '陕ICP备2025082251号', url: 'https://beian.miit.gov.cn/' },
+					{ icon: 'ph:certificate-bold', text: '萌ICP备20250004号', url: 'https://icp.gov.moe/?keyword=20250004' },
 				],
 			},
 		] satisfies Nav,
@@ -93,7 +93,7 @@ export default defineAppConfig({
 
 	/** 左侧栏顶部 Logo */
 	header: {
-		logo: 'https://file.catp.cc/avatar.png',
+		logo: 'https://github.com/awaidea.png',
 		/** 展示标题文本，否则展示纯 Logo */
 		showTitle: true,
 		subtitle: blogConfig.subtitle,
