@@ -58,8 +58,8 @@ export default defineAppConfig({
 		/** 侧边栏底部图标导航 */
 		iconNav: [
 			{ icon: 'ph:house-bold', text: '个人主页', url: blogConfig.author.homepage },
-			{ icon: 'ri:qq-line', text: '交流群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
-			{ icon: 'ph:github-logo-bold', text: 'GitHub: awaidea', url: 'https://github.com/awaidea' },
+			{ icon: 'ri:qq-line', text: '交流群', url: 'https://qun.qq.com/universal-share/share?ac=1&authKey=X%2FYS8MrKdJRX%2BAVYlCUye3H1DWJnNVkKNKlDkB1rdDTJBbSi5X6MuzFwA3z1jewt&busi_data=eyJncm91cENvZGUiOiIxMDc0Mjg5MzI5IiwidG9rZW4iOiJVODBFbXl3eU5EaTZ3Q3NBKzk0aS9lYWNYZG9ZL21YelFUUXk0NlMrZW9LcHhneTlESEFraDZwTUs5TmJPcmVxIiwidWluIjoiMjAyNTY1MDA2NCJ9&data=aKxkZ63hgbCnoyXcbTjNQkUZdLhq8OuIQN8EEJ3BJqERCpJ8FAevAjX6D0nPdmXeoiB1d7UJ7FAvOoVdBPhAWw&svctype=4&tempid=h5_group_info' },
+			{ icon: 'ph:github-logo-bold', text: 'GitHub', url: 'https://github.com/awaidea' },
 			{ icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
 			{ icon: 'ph:planet', text: '异次元之旅', url: 'https://travel.moe/go.html?travel=on' },
 		] satisfies NavItem[],
@@ -76,7 +76,7 @@ export default defineAppConfig({
 				title: '社交',
 				items: [
 					{ icon: 'ph:github-logo-bold', text: 'awaidea', url: 'https://github.com/awaidea' },
-					{ icon: 'ri:qq-line', text: '群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
+					{ icon: 'ri:qq-line', text: '群: 169994096', url: 'https://qun.qq.com/universal-share/share?ac=1&authKey=X%2FYS8MrKdJRX%2BAVYlCUye3H1DWJnNVkKNKlDkB1rdDTJBbSi5X6MuzFwA3z1jewt&busi_data=eyJncm91cENvZGUiOiIxMDc0Mjg5MzI5IiwidG9rZW4iOiJVODBFbXl3eU5EaTZ3Q3NBKzk0aS9lYWNYZG9ZL21YelFUUXk0NlMrZW9LcHhneTlESEFraDZwTUs5TmJPcmVxIiwidWluIjoiMjAyNTY1MDA2NCJ9&data=aKxkZ63hgbCnoyXcbTjNQkUZdLhq8OuIQN8EEJ3BJqERCpJ8FAevAjX6D0nPdmXeoiB1d7UJ7FAvOoVdBPhAWw&svctype=4&tempid=h5_group_info' },
 					{ icon: 'ph:envelope-simple-bold', text: blogConfig.author.email, url: `mailto:${blogConfig.author.email}` },
 				],
 			},
