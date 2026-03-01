@@ -3,15 +3,15 @@
 	card
 	dim
 	title="博客/技术社区"
-	bg-img="https://p.qlogo.cn/gh/169994096/169994096/100/"
+	bg-img="https://p.qlogo.cn/gh/1074289329/1074289329/100/"
 	bg-right
 >
 	<div class="title text-creative">
-		纸网接入点
+		在边缘网络上挣扎
 	</div>
 
 	<Tip copy icon :tip-options="{ placement: 'left' }">
-		<Icon name="ri:qq-fill" />169994096
+		<Icon name="ri:qq-fill" />1074289329
 	</Tip>
 </BlogWidget>
 </template>
